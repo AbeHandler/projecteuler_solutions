@@ -1,0 +1,7 @@
+def testPal(L):
+	output=0;
+	for item in L:
+		if hay3d(int(item)):
+			print 'hit'
+			output=item
+	return output
